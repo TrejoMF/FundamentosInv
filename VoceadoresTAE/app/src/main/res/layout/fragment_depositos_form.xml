@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.DepositosFormFragment">
+
+    <LinearLayout
+        android:padding="16dip"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/depositos_bancoField"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="8dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/depositos_accountField"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="8dip"
+            android:layout_width="match_parent"
+            android:entries="@array/account_drop"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/depositos_tipoTField"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="8dip"
+            android:entries="@array/tipodep_drop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/depositos_clientField"
+            android:layout_marginTop="8dip"
+            android:layout_marginBottom="8dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+            <Button
+                android:id="@+id/depositos_form_next"
+                android:text="@string/depositos_next_button"
+                android:background="@color/colorAccent_amber"
+                android:textColor="@color/White"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>
+
+

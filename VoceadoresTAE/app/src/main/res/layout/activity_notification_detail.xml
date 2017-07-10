@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.multimarca.tae.voceadorestae.NotificationDetail">
+
+    <include
+        android:id="@+id/action_bar_big"
+        layout="@layout/toolbar_medium"/>
+
+    <TextView
+        android:id="@+id/message_notificationMessage"
+        android:layout_below="@id/action_bar_big"
+        android:padding="8dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Los dias Jueves y viernes No habra bancos bla bla bla bla mas texto wako wako wako shakira wako"
+        />
+
+</RelativeLayout>

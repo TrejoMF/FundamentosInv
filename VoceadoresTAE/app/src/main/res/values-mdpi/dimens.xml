@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="StringTitle">18sp</dimen>
+    <dimen name="StringText">16sp</dimen>
+    <dimen name="heightBig">215dip</dimen>
+    <dimen name="heightMed">150dip</dimen>
+    <dimen name="padTop">6dip</dimen>
+    <dimen name="LoginString">18sp</dimen>
+
+</resources>

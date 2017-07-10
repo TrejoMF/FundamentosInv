@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeTranspanrency" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+    </style>
+
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_blue</item>
+        <item name="colorAccent">@color/colorAccent_blue</item>
+    </style>
+
+    <style name="AppThemeTeal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_teal</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_teal</item>
+        <item name="colorAccent">@color/colorAccent_teal</item>
+    </style>
+
+    <style name="AppThemeBlue400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_blue400</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_blue400</item>
+        <item name="colorAccent">@color/colorAccent_blue400</item>
+    </style>
+
+    <style name="AppThemeBlue700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_blue700</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_blue700</item>
+        <item name="colorAccent">@color/colorAccent_blue700</item>
+    </style>
+
+    <style name="AppThemeAmber" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_amber</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_amber</item>
+        <item name="colorAccent">@color/colorAccent_amber</item>
+    </style>
+
+    <style name="AppThemedpurple" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_dpurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_dpurple</item>
+        <item name="colorAccent">@color/colorAccent_dpurple</item>
+    </style>
+
+    <style name="AppThemeindi" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_indi</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_indi</item>
+        <item name="colorAccent">@color/colorAccent_indi</item>
+    </style>
+
+</resources>

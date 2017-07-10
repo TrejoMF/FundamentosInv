@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.multimarca.tae.voceadorestae.Fragments.RAppFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="8dip"
+            android:text="@string/aplicaciones_preactivadas"
+            android:textSize="@dimen/StringTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="8dip"
+            android:text="@string/pc_app_windows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="8dip"
+            android:text="@string/pc_app_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="8dip"
+            android:layout_marginBottom="8dip"
+            android:text="@string/movil_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/rcomision_sppiner_apps"
+            android:layout_width="match_parent"
+            android:entries="@array/tuser_dropdown"
+            android:layout_height="60dip"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/rapp_ilayout_text1"
+            android:layout_width="match_parent"
+            android:hint="Texto 1"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/rapp_edit_text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/rapp_ilayout_text2"
+            android:layout_width="match_parent"
+            android:hint="Texto 1"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/rapp_edit_text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/rapp_ilayout_text3"
+            android:layout_width="match_parent"
+            android:hint="Texto 1"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/rapp_edit_text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/rapp_button_skip"
+                android:layout_margin="8dip"
+                android:hint="@string/omitir"
+                android:background="@color/colorPrimaryDark_indi"
+                android:textColor="@color/White"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/StringText"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/White" />
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/rapp_button_add"
+                android:hint="@string/agregar_aplicativo"
+                android:layout_margin="8dip"
+                android:background="@color/colorAccent"
+                android:textColor="@color/White"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/StringText"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/White" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

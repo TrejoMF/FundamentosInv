@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE"
+    tools:context=".Fragments.drawer_menu">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:id="@+id/image_chida"
+        android:layout_width="match_parent"
+        android:layout_height="157.5dip">
+
+        <ImageButton
+            android:id="@+id/icon_account"
+            android:src="@drawable/ic_account_circle_white_48dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            />
+        <TextView
+            android:id="@+id/user_info"
+            android:layout_below="@id/icon_account"
+            android:textSize="@dimen/StringText"
+            android:padding="16dip"
+            android:textColor="@color/White"
+            android:text="@string/user_side_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/image_chida"
+        android:id="@+id/menu_aside"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

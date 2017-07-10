@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.DepositosFormFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/depositos_fechaFieldLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/depositos_fechaField"
+                android:hint="@string/depositos_text_fecha_hint"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/depositos_horaFieldLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/depositos_horaField"
+                android:hint="@string/depositos_text_hora_hint"
+                android:inputType="time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/depositos_montoFieldLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/depositos_montoField"
+                android:hint="@string/depositos_text_ctd_hint"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/depositos_folioFieldLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/depositos_folioField"
+                android:hint="@string/depositos_text_folio_hint"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/depositos_authFieldLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/depositos_authField"
+                android:hint="@string/depositos_text_auth_hint"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/depositos_comentsFieldLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/depositos_comentsField"
+            android:hint="@string/depositos_text_coment_hint"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/depostios_fileField"
+            android:text="@string/depositos_file_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/pomientras"
+            android:layout_width="match_parent"
+            android:layout_height="100dip" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/depositos_fields_prev"
+                android:text="@string/depositos_back_button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@color/Gray"
+                android:textColor="@color/White"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/depositos_fields_next"
+                android:text="@string/depositos_button_accept"
+                android:background="@color/colorAccent_amber"
+                android:textColor="@color/White"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+

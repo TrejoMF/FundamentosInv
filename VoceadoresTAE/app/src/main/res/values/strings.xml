@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Voceadores</string>
+    <string name="splash_text">Bienvenido</string>
+    <string name="login_string">Iniciar Sesión</string>
+    <string name="login_edit_passtext">Contraseña</string>
+    <string name="login_edit_usertext">Usuario:</string>
+    <string name="login_button_text">Entrar</string>
+    <string name="item_menu_testText">test_menu_options_#</string>
+    <string name="tae_reenterTel_text">Reingresa Telefono</string>
+    <string name="tae_text_number">Telefono</string>
+    <string name="tae_texto_recarga">Recargar</string>
+    <string name="tae_limpiar_button">Limpiar Campos</string>
+    <string name="prueba_texto">Texto de prueba</string>
+    <string-array name="company_dropdown">
+        <item>Compañia</item>
+    </string-array>
+    <string-array name="tuser_dropdown">
+        <item>Tipo de Usuario</item>
+        <item>Cliente</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="amount_dropdown">
+        <item>Monto</item>
+    </string-array>
+    <string-array name="tipo_dropdown">
+        <item>TIPO DE REPORTE</item>
+        <item>TODOS</item>
+        <item>BANCOS</item>
+        <item>MANUAL</item>
+    </string-array>
+    <string-array name="account_drop">
+        <item>Cuenta</item>
+    </string-array>
+    <string-array name="tipodep_drop">
+        <item>Tipo de deposito</item>
+    </string-array>
+    <string name="masked_number">___-___-____</string>
+    <string name="masked_simple">---</string>
+    <string name="masked_date">___ __, ____ / __:__</string>
+    <string name="masked_folio">______</string>
+    <string name="resume_text_folio">Folio:</string>
+    <string name="resume_text_datetime">Hora y Fecha:</string>
+    <string name="resume_text_company">Compañia:</string>
+    <string name="resume_text_number">Numero:</string>
+    <string name="toolbar_contentDesc_menu">menu</string>
+    <string name="toolbar_contenDec_back">Back</string>
+
+    <string name="service_text_amount">Monto</string>
+    <string name="service_text_reference">Referencia</string>
+    <string name="service_text_send">Abonar</string>
+    <string name="balance_text_init">Saldo Inicial:</string>
+    <string name="amount_default">---.--</string>
+    <string name="balance_text_today">Compras del día</string>
+    <string name="balance_text_todaySales">Ventas del día</string>
+    <string name="balance_text_totalBalance">Saldo Actual</string>
+    <string name="name_app">Voceadores</string>
+    <string name="rventas_hint_text">Elige una Fecha</string>
+    <string name="title_tae">Recarga Elécronica</string>
+    <string name="title_services">Pago de Servicios</string>
+    <string name="resume_goback_button">Volver</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resume_reference_text">Referencia</string>
+    <string name="resume_service_text">Servicio</string>
+    <string name="data_number_hint">Número: </string>
+    <string name="data_reference_hint">Referencia: </string>
+    <string name="data_amount_hint">Monto: </string>
+    <string name="data_Compañia_hint">Compañia: </string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+    <string name="user_side_hint">Usuario:</string>
+    <string name="rtraspasos_fechaF_hint">Fecha Final</string>
+    <string name="rtraspasos_fechaI_hint">Fecha Inicial</string>
+    <string name="traspaso_hint_text">Cliente:</string>
+    <string name="traspaso_hint_Banco_text">Banco:</string>
+    <string name="traspasos_hint_valor_text">Valor:</string>
+    <string name="traspasos_hint_fecha_text">Fecha:</string>
+    <string name="dtraspaso_text_banco">Banco:</string>
+    <string name="dtraspaso_text_Cliente">Cliente:</string>
+    <string name="dtraspaso_text_Auth">Autorización:</string>
+    <string name="dtraspaso_text_Ref">Referencia</string>
+    <string name="dtraspaso_text_Desc">Descripción</string>
+    <string name="dtraspaso_text_Supe">Supervisión:</string>
+    <string name="dtraspaso_text_Valor">Valor:</string>
+    <string name="dtraspaso_text_Fecha">Fecha:</string>
+    <string name="rventas_text_hintTotakes">Ventas Totales:</string>
+    <string name="rventas_text_hint_totalVenta">T. Venta:</string>
+    <string name="rventas_text_hintFecha">Fecha:</string>
+    <string name="depositos_text_fecha_hint">Selecciona una fecha</string>
+    <string name="depositos_text_hora_hint">Selecciona una hora</string>
+    <string name="depositos_text_ctd_hint">Agrega una cantidad</string>
+    <string name="depositos_text_auth_hint">Agrega un número de autorización</string>
+    <string name="depositos_text_folio_hint">Agrega un número de folio</string>
+    <string name="depositos_text_coment_hint">Comentario</string>
+    <string name="depositos_next_button">Siguiente</string>
+    <string name="depositos_back_button">Anterior</string>
+    <string name="depositos_file_hint">Selecciona Archivo</string>
+    <string name="depositos_button_accept">Enviar</string>
+    <string name="consult_text_jmas">Consultar</string>
+    <string name="update_string_carriers">Actualizar Carriers</string>
+    <string name="monto_hint_string">Monto:</string>
+    <string name="gcm_senderID">246749498899</string>
+    <string name="notice_example_text">Buen dia!</string>
+    <string name="resume_string_balance">Saldo Actual</string>
+    <string name="masked_resume_balance">0.0</string>
+    <string name="agregar_usuario">Agregar Usuario</string>
+    <string name="agregar_aplicativo">Agregar Aplicativo</string>
+    <string name="saldo_cliente">Saldo Cliente:</string>
+    <string name="n_a">N/A</string>
+    <string name="pc_app_windows"> - PC APP WINDOWS</string>
+    <string name="pc_app_web"> - PC APP WEB</string>
+    <string name="movil_android"> - MOVIL ANDROID</string>
+    <string name="aplicaciones_preactivadas">Aplicaciones preactivadas</string>
+    <string name="omitir">Omitir</string>
+    <string name="finalizar">Finalizar</string>
+</resources>
+

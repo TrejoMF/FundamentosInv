@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dip"
+    >
+
+    <LinearLayout
+        android:id="@+id/toplist"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dip">
+        <TextView
+            android:id="@+id/venta_numero"
+            android:layout_weight="2"
+            android:layout_width="0dip"
+            android:text="Numero: 6563942495"
+            android:layout_height="38dip" />
+        <TextView
+            android:id="@+id/venta_fecha"
+            android:layout_weight="2"
+            android:layout_width="0dip"
+            android:text="Hora: \n00:30"
+            android:layout_height="38dip" />
+        <TextView
+            android:id="@+id/venta_monto"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:text="Monto: 500.00"
+            android:layout_height="38dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottomlist"
+        android:layout_below="@id/toplist"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dip">
+
+        <TextView
+            android:id="@+id/venta_carrier"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:text="Carrier: Tesoreria del Distrito federal"
+            android:layout_height="38dip" />
+        <TextView
+            android:id="@+id/venta_folio"
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:text="Folio: 123456"
+            android:layout_height="38dip" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_below="@id/bottomlist"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/Dividers"/>
+</RelativeLayout>

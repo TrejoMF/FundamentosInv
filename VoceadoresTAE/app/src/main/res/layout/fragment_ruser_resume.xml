@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.multimarca.tae.voceadorestae.Fragments.RUserResumeFragment">
+    <TextView
+        android:id="@+id/rresume_user_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/StringTitle"
+        android:padding="16dip"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Usuario" />
+    <TextView
+        android:id="@+id/rresume_user_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/StringTitle"
+        android:padding="16dip"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="USUARIOXXXXX" />
+    <TextView
+        android:id="@+id/rresume_pass_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/StringTitle"
+        android:padding="16dip"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Contraseña" />
+    <TextView
+        android:id="@+id/rresume_pass_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/StringTitle"
+        android:padding="16dip"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="PASSXXXXX" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonFuga"
+        android:text="@string/finalizar"
+        android:textColor="@color/White"
+        android:textSize="@dimen/StringText"
+        android:background="@color/colorPrimary"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

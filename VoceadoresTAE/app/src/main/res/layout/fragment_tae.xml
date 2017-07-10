@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.TaeFragment"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="8dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        >
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/tae_company"
+            android:dropDownSelector="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dip"
+            android:paddingBottom="8dip"
+            android:entries="@array/company_dropdown"
+            android:scrollbarStyle="insideInset"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tae_layout_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/tae_number"
+                android:hint="@string/tae_text_number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tae_layout_re_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/tae_re_number"
+                android:hint="@string/tae_reenterTel_text"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/tae_monto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:paddingTop="8dip"
+            android:paddingBottom="8dip"
+            android:entries="@array/amount_dropdown"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tae_send"
+            android:text="@string/tae_texto_recarga"
+            android:textSize="@dimen/StringText"
+            android:layout_marginTop="8dip"
+            android:textColor="@color/White"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tae_clean"
+            android:background="@color/Gray"
+            android:text="@string/tae_limpiar_button"
+            android:textColor="@color/White"
+            android:textSize="@dimen/StringText"
+            android:layout_marginTop="8dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

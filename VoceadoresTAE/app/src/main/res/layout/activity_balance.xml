@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Balance">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/medium_appbar"
+            layout="@layout/toolbar_medium"/>
+
+        <LinearLayout
+            android:padding="@dimen/padTop"
+            android:layout_below="@id/medium_appbar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/balance_init"
+                android:textSize="@dimen/StringText"
+                android:text="@string/balance_text_init"
+                android:paddingTop="@dimen/padTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/balance_init_amount"
+                android:textSize="@dimen/StringTitle"
+                android:textColor="@color/colorPrimary_teal"
+                android:text="@string/amount_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/balance_today"
+                android:textSize="@dimen/StringText"
+                android:text="@string/balance_text_today"
+                android:paddingTop="@dimen/padTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/balance_today_amount"
+                android:textSize="@dimen/StringTitle"
+                android:textColor="@color/colorPrimary_teal"
+                android:text="@string/amount_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/balance_todaySales"
+                android:textSize="18sp"
+                android:text="@string/balance_text_todaySales"
+                android:paddingTop="@dimen/padTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/balance_todaySales_amount"
+                android:textSize="@dimen/StringTitle"
+                android:textColor="@color/colorPrimary_teal"
+                android:text="@string/amount_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginTop="@dimen/padTop"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:background="@color/Gray"/>
+
+            <TextView
+                android:id="@+id/balance_totalBalance"
+                android:textSize="18sp"
+                android:text="@string/balance_text_totalBalance"
+                android:paddingTop="@dimen/padTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/balance_totalBalance_amount"
+                android:textSize="@dimen/StringTitle"
+                android:textColor="@color/colorPrimary_teal"
+                android:text="@string/amount_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="280dip"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_drawer_menu"
+        android:id="@+id/fragment_menu"
+        android:name="com.multimarca.tae.voceadorestae.Fragments.Drawer_menu"
+        tools:layout="@layout/fragment_drawer_menu" />
+</android.support.v4.widget.DrawerLayout>

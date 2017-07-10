@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleTraspaso">
+    <include
+        android:id="@+id/medium_appbar"
+        layout="@layout/toolbar_medium"/>
+
+    <LinearLayout
+        android:padding="16dip"
+        android:layout_below="@id/medium_appbar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/dtraspaso_Cliente"
+            android:text="@string/dtraspaso_text_Cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dtraspaso_Banco"
+            android:text="@string/dtraspaso_text_banco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dtraspaso_Auth"
+            android:text="@string/dtraspaso_text_Auth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dtraspaso_Referencia"
+            android:text="@string/dtraspaso_text_Ref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dtraspaso_Desc"
+            android:text="@string/dtraspaso_text_Desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dtraspaso_Supe"
+            android:text="@string/dtraspaso_text_Supe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dtraspaso_Valor"
+            android:text="@string/dtraspaso_text_Valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dtraspaso_Fecha"
+            android:text="@string/dtraspaso_text_Fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

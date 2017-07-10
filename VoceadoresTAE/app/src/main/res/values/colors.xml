@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- theme AppCompat Menu/Recargas-->
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#2979ff</color>
+
+    <!-- theme AppCompat Blue Servicios-->
+    <color name="colorPrimary_blue">#03A9F4</color>
+    <color name="colorPrimaryDark_blue">#0288D1</color>
+    <color name="colorAccent_blue">#ff9100</color>
+
+    <!-- theme AppCompat Aqua Saldo-->
+    <color name="colorPrimary_teal">#2E7D32</color>
+    <color name="colorPrimaryDark_teal">#1B5E20</color>
+    <color name="colorAccent_teal">#6200ea</color>
+
+    <!-- theme AppCompat Blue400 REPORTE DE VENTAS-->
+    <color name="colorPrimary_blue400">#4A4A4A</color>
+    <color name="colorPrimaryDark_blue400">#393939</color>
+    <color name="colorAccent_blue400">#4A4A4A</color>
+
+    <!-- theme AppCompat Blue400 REPORTE DE TRASPASOS-->
+    <color name="colorPrimary_blue700">#4A4A4A</color>
+    <color name="colorPrimaryDark_blue700">#393939</color>
+    <color name="colorAccent_blue700">#00e676</color>
+
+    <!-- theme AppCompat DeepPurple MAC ADRESSS-->
+    <color name="colorPrimary_dpurple">#000000</color>
+    <color name="colorPrimaryDark_dpurple">#393939</color>
+    <color name="colorAccent_dpurple">#333333</color>
+
+    <!-- theme AppCompat Amber DEPOSITOS-->
+    <color name="colorPrimary_amber">#00BCD4</color>
+    <color name="colorPrimaryDark_amber">#00BCD4</color>
+    <color name="colorAccent_amber">#0091ea</color>
+
+    <!-- theme AppCompat Indigo TRASPASOS-->
+    <color name="colorPrimary_indi">#4A4A4A</color>
+    <color name="colorPrimaryDark_indi">#393939</color>
+    <color name="colorAccent_indi">#d50000</color>
+
+    <color name="White">#FFF</color>
+    <color name="Gray">#616570</color>
+    <color name="Dividers">#606060</color>
+    <color name="foreground_material">#ffffff</color>
+
+</resources>

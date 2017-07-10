@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RTraspasosFragment">
+
+    <RelativeLayout
+        android:padding="16dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/rtraspasos_client"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/company_dropdown"
+            />
+
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/rtraspasos_tipo"
+            android:layout_below="@id/rtraspasos_client"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/tipo_dropdown"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/rtraspasos_dateI"
+            android:layout_below="@id/rtraspasos_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/rtraspasos_dateI_edit"
+                android:hint="@string/rtraspasos_fechaI_hint"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/rtraspasos_dateF"
+            android:layout_below="@id/rtraspasos_dateI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/rtraspasos_dateF_edit"
+                android:hint="@string/rtraspasos_fechaF_hint"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/rtraspasos_accept"
+            android:layout_below="@id/rtraspasos_dateF"
+            android:text="Buscar"
+            android:textColor="@color/White"
+            android:background="@color/colorPrimary_blue700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</ScrollView>

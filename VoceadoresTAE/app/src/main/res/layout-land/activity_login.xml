@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="horizontal" tools:context=".Login">
+
+    <movil.com.multimarca.widgets.TwoThreeImageView
+        android:id="@+id/login_img"
+        android:src="@drawable/login_image"
+        android:layout_width="0dip"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/login_img"
+        android:layout_toEndOf="@id/login_img"
+        android:padding="16dip"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/login_text"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="@string/login_string"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/login_layout_user"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/login_user"
+                android:hint="@string/login_edit_usertext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/login_layout_pass"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/login_pass"
+                android:hint="@string/login_edit_passtext"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/login_button"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/login_button_text"
+            android:textColor="@color/White"
+            android:layout_marginTop="16dip"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

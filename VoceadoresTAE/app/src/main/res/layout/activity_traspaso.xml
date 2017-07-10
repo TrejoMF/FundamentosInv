@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Traspaso">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/medium_appbar"
+            layout="@layout/toolbar_medium"/>
+        <LinearLayout
+            android:layout_below="@id/medium_appbar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="16dip"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/clientCbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:hint="Monto:"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/traspaso_amount"
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/traspaso_comment"
+                    android:hint="Comentario"
+                    android:inputType="textMultiLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/traspaso_text_currentBalance"
+                    android:text="@string/balance_text_totalBalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dip"
+                    android:layout_marginRight="16dip" />
+                <TextView
+                    android:id="@+id/traspaso_value_currentBalance"
+                    android:text="@string/masked_resume_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/traspaso_text_clientBalance"
+                    android:text="@string/saldo_cliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dip"
+                    android:layout_marginRight="16dip" />
+
+                <TextView
+                    android:id="@+id/traspaso_value_clientBalance"
+                    android:text="@string/n_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/traspaso_button_traspaso"
+                android:text="Traspasar"
+                android:background="@color/colorAccent_indi"
+                android:textColor="@color/White"
+                android:layout_marginTop="8dip"
+                android:layout_marginBottom="8dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="280dip"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_drawer_menu"
+        android:id="@+id/fragment_menu"
+        android:name="com.multimarca.tae.voceadorestae.Fragments.Drawer_menu"
+        tools:layout="@layout/fragment_drawer_menu" />
+</android.support.v4.widget.DrawerLayout>
